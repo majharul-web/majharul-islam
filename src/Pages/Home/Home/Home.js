@@ -1,17 +1,12 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
+import HomeHead from '../HomeHead/HomeHead';
+import Projects from '../Projects/Projects';
+
 
 const Home = () => {
     return (
-        <div className='text-center'>
-            <h3>This is Home</h3>
-            <Typewriter
-                options={{
-                    strings: ['I am Majharul Isam', 'React Developer'],
-                    autoStart: true,
-                    loop: true,
-                }}
-            />
+        <div>
+            <HomeHead></HomeHead>
         </div>
     );
 };

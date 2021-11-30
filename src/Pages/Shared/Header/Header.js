@@ -17,6 +17,7 @@ const Header = () => {
                         <Nav.Link as={Link} to="/about" className='item mx-3 active '>About</Nav.Link>
                         <Nav.Link as={Link} to="/portfolio" className='item mx-3 active '>Portfolio</Nav.Link>
                         <Nav.Link as={Link} to="/contact" className='item mx-3 active '>Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/blog" className='item mx-3 active '>Blog</Nav.Link>
                         <Button
                             variant="outline-success"
                             className='btn-font fs-6'

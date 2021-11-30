@@ -3,7 +3,6 @@ import React from 'react';
 const Footer = () => {
     const style = {
         backgroundColor: "#dff3f5"
-        // backgroundColor:"black"
     }
     return (
         <div style={style}>

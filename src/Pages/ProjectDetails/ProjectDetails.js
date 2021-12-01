@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
 import { useParams } from 'react-router';
 
 const ProjectDetails = () => {
@@ -19,7 +20,7 @@ const ProjectDetails = () => {
         }
     }, [projects])
 
-    const { projectName, projectType, image1, } = exactProject;
+    const { projectName, projectType, image1, liveLink, clientCode, serverCode, desc, technology } = exactProject;
 
     return (
         <div className='bg py-5'>
@@ -32,8 +33,27 @@ const ProjectDetails = () => {
                         </div>
                         <div className="col-md-6">
                             <div>
-                                <h5>Project Name: {projectName}</h5>
-                                <h6>Project Type: {projectType}</h6>
+                                <h5> <span className='fw-bold'>Project Name: </span>{projectName}</h5>
+                                <h6><span className='fw-bold'>Project Type: </span>{projectType}</h6>
+                                <p><span className='fw-bold'>Technology Used: </span>{technology}</p>
+                                <p><span className='fw-bold'>Features: </span>{desc}</p>
+                                <div className="d-flex justify-content-center">
+                                    <div className="btn-group mb-3">
+
+                                        <Button size="lg" href={liveLink} target="_blank" variant="outline-success">
+                                            Live Site
+                                        </Button>
+
+                                        <Button size="lg" href={clientCode} target="_blank" variant="outline-success">
+                                            Client-Code
+                                        </Button>
+
+                                        <Button size="lg" href={serverCode} target="_blank" variant="outline-success">
+                                            Server-Code
+                                        </Button>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>

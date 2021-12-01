@@ -3,9 +3,16 @@ import './Projects.css';
 
 
 const Projects = () => {
+    const style = {
+        backgroundColor: "#dff3f5"
+    }
     return (
-        <div className='reset bg-danger'>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, aliquam?</p>
+        <div style={style} className='py-5'>
+            <div className="container">
+                <h3 className='text-decoration-underline'>Recent Works</h3>
+            </div>
+
+
 
         </div>
     );

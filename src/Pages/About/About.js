@@ -40,7 +40,7 @@ const About = () => {
                 </div>
             </div>
             <div className='container'>
-                <h2 className='fw-bold fs-1 text-center py-4 text-decoration-underline' style={{ color: '#00CBA9' }}>My Skill</h2>
+                <h2 className='fw-bold  text-center py-4 text-decoration-underline' style={{ color: '#00CBA9' }}>My Skill</h2>
 
                 <Progress></Progress>
 

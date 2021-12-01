@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "projectName":"Sazid Honda",
+        "projectType":"Bike Showroom Website",
+        "image1":"https://ibb.co/0rBqzj2"
+
+    },
+    {
+        "id":2,
+        "projectName":"Travelo",
+        "projectType":"Travel Agency Website",
+        "image1":"https://ibb.co/MgS4JQv"
+
+    },
+    {
+        "id":3,
+        "projectName":"LifeCare",
+        "projectType":"Hospital Website",
+        "image1":"https://ibb.co/6tRKLhC"
+
+    }
+
+]

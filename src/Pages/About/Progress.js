@@ -7,7 +7,7 @@ const Progress = () => {
             <div className='w-75'>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>HTML</h3>
+                        <h5>HTML</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar
@@ -29,7 +29,7 @@ const Progress = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>CSS</h3>
+                        <h5>CSS</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar
@@ -51,7 +51,7 @@ const Progress = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>Bootstrap</h3>
+                        <h5>Bootstrap</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar
@@ -73,7 +73,7 @@ const Progress = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>Material UI</h3>
+                        <h5>Material UI</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar
@@ -95,7 +95,7 @@ const Progress = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>Javascript</h3>
+                        <h5>Javascript</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar
@@ -117,7 +117,29 @@ const Progress = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>React.js</h3>
+                        <h5>React.js</h5>
+                    </div>
+                    <div className="col-md-8">
+                        <ProgressBar
+                            completed={80}
+                            bgColor="#FF4F5A"
+                            height="30px"
+                            borderRadius="0"
+                            labelAlignment="center"
+                            baseBgColor="#00CBA9"
+                            labelColor="#eee0e0"
+                            margin="5px 0"
+                            padding="5px"
+                            transitionDuration="1s"
+                            animateOnRender
+                            dir="auto"
+                            customLabel="80%"
+                        />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4 text-end">
+                        <h5>Node.js</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar
@@ -139,29 +161,7 @@ const Progress = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>Node.js</h3>
-                    </div>
-                    <div className="col-md-8">
-                        <ProgressBar
-                            completed={67}
-                            bgColor="#FF4F5A"
-                            height="30px"
-                            borderRadius="0"
-                            labelAlignment="center"
-                            baseBgColor="#00CBA9"
-                            labelColor="#eee0e0"
-                            margin="5px 0"
-                            padding="5px"
-                            transitionDuration="1s"
-                            animateOnRender
-                            dir="auto"
-                            customLabel="67%"
-                        />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-4 text-end">
-                        <h3>Express.js</h3>
+                        <h5>Express.js</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar
@@ -183,7 +183,7 @@ const Progress = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 text-end">
-                        <h3>Mongo DB</h3>
+                        <h5>Mongo DB</h5>
                     </div>
                     <div className="col-md-8">
                         <ProgressBar

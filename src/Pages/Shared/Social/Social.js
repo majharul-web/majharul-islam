@@ -7,20 +7,20 @@ const Social = () => {
 
     }
     return (
-        <div class="py-5" style={style}>
-            <div class="d-flex justify-content-center">
-                <div class="btn-group mb-3">
+        <div className="py-5" style={style}>
+            <div className="d-flex justify-content-center">
+                <div className="btn-group mb-3">
 
                     <Button size="lg" href="https://github.com/majharul-web" target="_blank" variant="outline-success">
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                     </Button>
 
                     <Button size="lg" href="https://www.linkedin.com/in/md-majharul-islam-a42b63200/" target="_blank" variant="outline-success">
-                        <i class="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin"></i>
                     </Button>
 
                     <Button size="lg" href="https://www.facebook.com/Majharuljony357" target="_blank" variant="outline-success">
-                        <i class="fab fa-facebook"></i>
+                        <i className="fab fa-facebook"></i>
                     </Button>
                 </div>
 

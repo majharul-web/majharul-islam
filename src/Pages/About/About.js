@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
-import aboutIm from '../../Images/about.png'
+import aboutIm from '../../Images/about.png';
+import Progress from './Progress';
 
 const About = () => {
     return (
@@ -37,6 +38,12 @@ const About = () => {
                         <img className='w-75' src={aboutIm} alt="" />
                     </div>
                 </div>
+            </div>
+            <div className='container'>
+                <h2 className='fw-bold fs-1 text-center py-4 text-decoration-underline' style={{ color: '#00CBA9' }}>My Skill</h2>
+
+                <Progress></Progress>
+
             </div>
         </div>
     );

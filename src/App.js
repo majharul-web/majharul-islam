@@ -8,6 +8,8 @@ import Social from './Pages/Shared/Social/Social';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact/Contact';
 import Blog from './Pages/Blog/Blog';
+import PortFolio from './Pages/PortFolio/PortFolio';
+import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 
 
 function App() {
@@ -25,11 +27,17 @@ function App() {
           <Route path='/about'>
             <About></About>
           </Route>
+          <Route path='/portFolio'>
+            <PortFolio></PortFolio>
+          </Route>
           <Route path='/blog'>
             <Blog></Blog>
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='/projectDetails/:id'>
+            <ProjectDetails></ProjectDetails>
           </Route>
         </Switch>
         <Social></Social>

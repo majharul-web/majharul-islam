@@ -23,6 +23,17 @@
     },
     {
         "id": 3,
+        "projectName": "Todo App",
+        "projectType": "Todo Application",
+        "image1": "https://i.ibb.co/Lv2NgDF/todo-App.png",
+        "liveLink": "https://todo-app-147bf.web.app/",
+        "clientCode": "https://github.com/majharul-web/todo-app-frontend",
+        "serverCode": "https://github.com/majharul-web/todo-app-backend",
+        "desc": "Implemented Email-Password and Google Authentication system using firebase.Applied CRUD operation, Where user can add, delete, update and view todo. Only logged-in users can see her todo.",
+        "technology": "React,Node.js,Express.js,MongoDB,Firebase,React-Router(v6),Material UI,HTML,CSS."
+    },
+    {
+        "id": 4,
         "projectName": "Travelo",
         "projectType": "Travel Agency Website",
         "image1": "https://i.ibb.co/NFCPGbv/Travelo-1.png",
@@ -33,7 +44,7 @@
         "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,Node.js,Express.js,MongoDB"
     },
     {
-        "id": 4,
+        "id": 5,
         "projectName": "LifeCare",
         "projectType": "Hospital Website",
         "image1": "https://i.ibb.co/fNY3LRw/life-Care-hospita-1.png",

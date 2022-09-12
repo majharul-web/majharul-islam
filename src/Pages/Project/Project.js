@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Project = ({ project }) => {
   const { projectName, projectType, image1, id } = project;
   return (
-    <div className='col-md-4'>
+    <div className='col-md-4 pt-3'>
       <div style={{ textAlign: "center" }}>
         <img className='img-fluid' style={{ height: "300px" }} src={image1} alt='not' />
       </div>

@@ -11,10 +11,10 @@ const PortFolio = () => {
   }, []);
   console.log("projects", projects);
   return (
-    <div className='bg py-5'>
+    <div className='bg py-3'>
       <div className='container'>
-        <h3 className='text-center text-decoration-underline pb-5 pt-2'>Recent Works</h3>
-        <div className='row'>
+        <h3 className='text-center text-decoration-underline pb-2 pt-2'>Recent Works</h3>
+        <div className='row justify-content-center align-items-center'>
           {projects.map((project) => (
             <Project key={project.id} project={project}></Project>
           ))}

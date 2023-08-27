@@ -1,6 +1,39 @@
 [
     {
         "id": 1,
+        "projectName": "Aliba International",
+        "projectType": "Ecommerce-Website",
+        "image1": "https://i.ibb.co/Xj2prMc/Aliba-International-Bangladesh-top-wholesale-website.png",
+        "liveLink": "https://alibainternational.com/",
+        "clientCode": "",
+        "serverCode": "",
+        "desc": "Designed All page UI and implemented All API connection.Implemented shopping cart and wishlist functionality Implemented Authentication Functionality,Added Messenger chat option,Product link social share option and customer dashboard all functionality.Implemented bKash payment gateway and Nagad,Bank manual payment system,where includes coupon and payment method discount features.",
+        "technology": "React,React-Redux,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+    },
+    {
+        "id": 2,
+        "projectName": "Automart",
+        "projectType": "Ecommerce-Website",
+        "image1": " https://i.ibb.co/YDVQnRR/Automart.png",
+        "liveLink": "https://automart.com.bd/",
+        "clientCode": "",
+        "serverCode": "",
+        "desc": "Designed UI and implemented product increment-decrement frontend functionality into the shopping cart.Designed order confirmation custom modal and implemented place order frontend functionality into the checkout page.Designed email template and implemented send email functionality when the user confirms her order using Laravel Mail.Implemented Outsource panel into POS section, UI change, etc.",
+        "technology": "React,jQuery,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+    },
+    {
+        "id": 3,
+        "projectName": "Cloudone",
+        "projectType": "Company Branding Website",
+        "image1": "https://i.ibb.co/9gwYPF2/Cloudone-The-Best-ISP-in-Chittagong.png",
+        "liveLink": "https://www.cloudone.com.bd/",
+        "clientCode": "",
+        "serverCode": "",
+        "desc": "Implemented Refer A Friend features,where-Design UI, Request into the backend and handle response with Ajax.Implemented Pre-registration features.Add Scan QR code for download app,responsiveness, UI change, etc.",
+        "technology": "PHP(Laravel),MySQL,Bootstrap,HTML,CSS,jQuery,"
+    },
+    {
+        "id": 4,
         "projectName": "Sazid Honda",
         "projectType": "Bike Showroom Website",
         "image1": "https://i.ibb.co/dDbBH0M/SAZID-Honda-1.png",
@@ -11,7 +44,7 @@
         "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,Node.js,Express.js,MongoDB"
     },
     {
-        "id": 2,
+        "id": 5,
         "projectName": "Jerin’s Parlour",
         "projectType": "Beauty Parlour Website",
         "image1": "https://i.ibb.co/xq5MH6H/jerins-parlour.png",
@@ -22,7 +55,7 @@
         "technology": "React,Node.js,Express.js,MongoDB,Firebase,React-Router(v6),Material UI,HTML,CSS."
     },
     {
-        "id": 3,
+        "id": 6,
         "projectName": "Todo App",
         "projectType": "Todo Application",
         "image1": "https://i.ibb.co/Lv2NgDF/todo-App.png",
@@ -33,7 +66,7 @@
         "technology": "React,Node.js,Express.js,MongoDB,Firebase,React-Router(v6),Material UI,HTML,CSS."
     },
     {
-        "id": 4,
+        "id": 7,
         "projectName": "Travelo",
         "projectType": "Travel Agency Website",
         "image1": "https://i.ibb.co/NFCPGbv/Travelo-1.png",
@@ -44,7 +77,7 @@
         "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,Node.js,Express.js,MongoDB"
     },
     {
-        "id": 5,
+        "id": 8,
         "projectName": "LifeCare",
         "projectType": "Hospital Website",
         "image1": "https://i.ibb.co/fNY3LRw/life-Care-hospita-1.png",

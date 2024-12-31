@@ -80,7 +80,7 @@ const ProjectDetails = () => {
                     target='_blank'
                     variant='outline-success'
                     className={`animateBtn ${!serverCode ? "disabledBtn" : ""}`}
-                    disabled={true}
+                    disabled={!serverCode}
                   >
                     Server Code
                   </Button>

@@ -7,7 +7,7 @@ const Project = ({ project }) => {
   return (
     <div className='col-md-4 pt-3'>
       <div style={{ textAlign: "center" }}>
-        <img className='img-fluid' style={{ height: "300px" }} src={image1} alt='not' />
+        <img className='img-fluid' style={{ height: "100%" }} src={image1} alt='projectName' />
       </div>
       <div className='text-center py-3'>
         <h3>{projectName}</h3>

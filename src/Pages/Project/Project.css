@@ -1,0 +1,43 @@
+/* Fade-in animation for the entire section */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Applying fade-in animation to the section */
+.py-3 {
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* Hover effect for project cards */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image zoom effect on hover */
+.project-card img {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Add a subtle animation to the project details */
+.project-details {
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.5s forwards;
+}
+
+.project-details h3 {
+  color: #45cba9; /* A subtle color for the project title */
+}

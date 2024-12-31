@@ -1,29 +1,38 @@
-import React from 'react';
-import Typewriter from 'typewriter-effect';
-import './HomeHead.css';
-import im1 from '../../../Images/dev-removebg-preview.png';
+import React from "react";
+import Typewriter from "typewriter-effect";
+import im1 from "../../../Images/Md_Majharul_Islam.JPG";
+import "./HomeHead.css";
 
 const HomeHead = () => {
-    return (
-        <div className='bg'>
-            <div className='text-center pt-5'>
-                <p>Hey There,</p>
-                <h2 className='fw-bold'>I am Majharul Islam</h2>
-                <Typewriter className='text-center'
-                    options={{
-                        strings: ['Web Developer & Programmer', 'Javascript  Lover', 'React Developer', 'MERN Stack Developer'],
-                        autoStart: true,
-                        loop: true,
-                    }}
-                />
-                <div>
-                    <img src={im1} className='img-fluid' alt="not f" />
-                </div>
-
-            </div>
-
+  return (
+    <div className='homehead-container'>
+      <div className='text-center pt-5'>
+        <p className='greeting'>👋 Hey There,</p>
+        <h2 className='fw-bold name-title'>
+          I am <span className='highlight'>Md Majharul Islam</span>
+        </h2>
+        <Typewriter
+          className='text-center typewriter-effect'
+          options={{
+            strings: [
+              "Frontend Developer | React Specialist",
+              "Crafting Scalable Web Solutions",
+              "JavaScript & TypeScript Enthusiast",
+              "Expert in Next.js & Tailwind CSS",
+              "Building Seamless User Experiences",
+              "MERN Stack Developer",
+              "Passionate Problem Solver",
+            ],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+        <div>
+          <img src={im1} alt='Majharul Islam' className='img-fluid profile-image' />
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default HomeHead;

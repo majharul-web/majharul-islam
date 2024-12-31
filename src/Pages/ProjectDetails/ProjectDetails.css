@@ -1,0 +1,56 @@
+/* Animation for fading in elements */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Animation for sliding in the image */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slideIn {
+  animation: slideIn 1s ease-out forwards;
+}
+
+/* Button hover animation */
+.animateBtn {
+  transition: transform 0.3s ease, background-color 0.3s ease !important;
+}
+
+.animateBtn:hover {
+  transform: scale(1.05) !important;
+  background-color: #00cba9 !important; /* Change the background on hover */
+  color: white !important;
+}
+
+/* Disabled button styling */
+.disabledBtn {
+  cursor: not-allowed;
+  background-color: #e0e0e0 !important;
+  color: #b0b0b0 !important;
+  border-color: #b0b0b0 !important;
+}
+
+.disabledBtn:hover {
+  transform: none !important;
+  background-color: #e0e0e0 !important;
+  color: #b0b0b0 !important;
+}

@@ -1,35 +1,57 @@
 [
     {
         "id": 1,
-        "projectName": "Aliba International",
-        "projectType": "Ecommerce-Website",
-        "image1": "https://i.ibb.co.com/QQbbZsr/alibaint.png",
-        "liveLink": "https://alibainternational.com/",
+        "projectName": "AeroTrip",
+        "projectType": "OTA-B2B Platform",
+        "image1": "https://i.ibb.co.com/287kjYm/aerotrip.png",
+        "liveLink": "https://b2b.aerotrip.net",
         "clientCode": "",
         "serverCode": "",
-        "desc": "Designed All page UI and implemented All API connection.Implemented shopping cart and wishlist functionality Implemented Authentication Functionality,Added Messenger chat option,Product link social share option and customer dashboard all functionality.Implemented bKash payment gateway and Nagad,Bank manual payment system,where includes coupon and payment method discount features.",
-        "technology": "React,React-Redux,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+        "desc": "AeroTrip is a B2B platform enhancing travel agency workflows. Features include agent registration, login, traveler management, ticket booking, and GDS airline data integration. Built secure forms with Formik & Yup and designed responsive UIs using Tailwind CSS.",
+        "technology": "TypeScript, Next.js, Redux, RTK Query, Tailwind CSS, Formik, Yup"
     },
     {
         "id": 2,
         "projectName": "Automart",
         "projectType": "Ecommerce-Website",
-        "image1": "https://i.ibb.co.com/nccBSFR/Automart.png",
+        "image1": "https://your-image-link.com/automart.png",
         "liveLink": "https://automart.com.bd/",
         "clientCode": "",
         "serverCode": "",
-        "desc": "Designed UI and implemented product increment-decrement frontend functionality into the shopping cart.Designed order confirmation custom modal and implemented place order frontend functionality into the checkout page.Designed email template and implemented send email functionality when the user confirms her order using Laravel Mail.Implemented Outsource panel into POS section, UI change, etc.",
-        "technology": "React,jQuery,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+        "desc": "Automart is an e-commerce platform offering a complete shopping experience. Features include product catalog, shopping cart, and checkout with Laravel and MySQL backend, and jQuery-based frontend interactivity.",
+        "technology": "React, jQuery, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     },
     {
         "id": 3,
+        "projectName": "Photo Book",
+        "projectType": "Photo Gallery Application-Personal",
+        "image1": "https://i.ibb.co.com/qgyxZN6/Photo-book-12-31-2024-11-23-PM.png",
+        "liveLink": "https://photo-book-mi.netlify.app/",
+        "clientCode": "https://github.com/majharul-web/photo-book-client",
+        "serverCode": "https://github.com/majharul-web/photo-book-server",
+        "desc": "A photo-sharing platform where users can browse, like, and comment on photos. Features include Firebase-based authentication, responsive design with Tailwind CSS, and a backend built with Express.js and MongoDB.",
+        "technology": "JavaScript, TypeScript, React, Redux, Tailwind CSS, Daisy UI, Firebase, MongoDB, Express.js, Node.js"
+    },
+    {
+        "id": 4,
         "projectName": "Cloudone",
         "projectType": "Company Branding Website",
         "image1": "https://i.ibb.co.com/tY15V5H/Cloudone.png",
         "liveLink": "https://www.cloudone.com.bd/",
         "clientCode": "",
         "serverCode": "",
-        "desc": "Implemented Refer A Friend features,where-Design UI, Request into the backend and handle response with Ajax.Implemented Pre-registration features.Add Scan QR code for download app,responsiveness, UI change, etc.",
-        "technology": "PHP(Laravel),MySQL,Bootstrap,HTML,CSS,jQuery,"
+        "desc": "Implemented features like 'Refer A Friend' with Ajax, pre-registration, and app QR code scanning, focusing on UI responsiveness.",
+        "technology": "PHP (Laravel), MySQL, Bootstrap, HTML, CSS, jQuery"
+    },
+    {
+        "id": 5,
+        "projectName": "Aliba International",
+        "projectType": "Ecommerce-Website",
+        "image1": "https://i.ibb.co.com/QQbbZsr/alibaint.png",
+        "liveLink": "https://alibainternational.com/",
+        "clientCode": "",
+        "serverCode": "",
+        "desc": "Designed UI, implemented API connections, and integrated shopping cart, wishlist, authentication, and payment gateway (bKash, Nagad) with coupon and discount features.",
+        "technology": "React, React-Redux, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     }
 ]

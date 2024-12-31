@@ -1,15 +1,9 @@
-.bg {
-  width: 100%;
-  background-image: url("../../../Images/circle-scatter-haikei.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /* General container styling for centering */
 .homehead-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 70vh;
   background-image: url("../../../Images/circle-scatter-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,7 +27,7 @@
   font-size: 2.5rem;
   color: #333;
   font-weight: 700;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   margin-bottom: 1rem;
   display: inline-block;
   animation: fadeIn 1.5s ease-in-out;
@@ -43,7 +37,7 @@
 .highlight {
   color: #45cba9; /* Set the color to #45cba9 */
   /* text-shadow: 3px 3px 6px rgba(72, 217, 179, 0.6), 0 0 20px rgba(72, 217, 179, 0.3);  */
-  /* font-style: italic; */
+  font-style: italic;
 }
 
 /* Typewriter effect styling */

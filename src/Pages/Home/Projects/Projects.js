@@ -7,7 +7,7 @@ const Projects = () => {
     backgroundColor: "#dff3f5",
   };
 
-  // get projects
+  // Get projects
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     fetch("https://raw.githubusercontent.com/majharul-web/majharul-islam/main/public/projects.json")

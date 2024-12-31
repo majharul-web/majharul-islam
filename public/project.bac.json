@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "projectName": "Aliba International",
+        "projectType": "Ecommerce-Website",
+        "image1": "https://i.ibb.co.com/QQbbZsr/alibaint.png",
+        "liveLink": "https://alibainternational.com/",
+        "clientCode": "",
+        "serverCode": "",
+        "desc": "Designed All page UI and implemented All API connection.Implemented shopping cart and wishlist functionality Implemented Authentication Functionality,Added Messenger chat option,Product link social share option and customer dashboard all functionality.Implemented bKash payment gateway and Nagad,Bank manual payment system,where includes coupon and payment method discount features.",
+        "technology": "React,React-Redux,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+    },
+    {
+        "id": 2,
+        "projectName": "Automart",
+        "projectType": "Ecommerce-Website",
+        "image1": "https://i.ibb.co.com/nccBSFR/Automart.png",
+        "liveLink": "https://automart.com.bd/",
+        "clientCode": "",
+        "serverCode": "",
+        "desc": "Designed UI and implemented product increment-decrement frontend functionality into the shopping cart.Designed order confirmation custom modal and implemented place order frontend functionality into the checkout page.Designed email template and implemented send email functionality when the user confirms her order using Laravel Mail.Implemented Outsource panel into POS section, UI change, etc.",
+        "technology": "React,jQuery,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+    },
+    {
+        "id": 3,
+        "projectName": "Cloudone",
+        "projectType": "Company Branding Website",
+        "image1": "https://i.ibb.co.com/tY15V5H/Cloudone.png",
+        "liveLink": "https://www.cloudone.com.bd/",
+        "clientCode": "",
+        "serverCode": "",
+        "desc": "Implemented Refer A Friend features,where-Design UI, Request into the backend and handle response with Ajax.Implemented Pre-registration features.Add Scan QR code for download app,responsiveness, UI change, etc.",
+        "technology": "PHP(Laravel),MySQL,Bootstrap,HTML,CSS,jQuery,"
+    },
+    {
+        "id": 4,
+        "projectName": "Sazid Honda",
+        "projectType": "Bike Showroom Website",
+        "image1": "https://i.ibb.co/dDbBH0M/SAZID-Honda-1.png",
+        "liveLink": "https://sazid-honda.web.app/",
+        "clientCode": "https://github.com/majharul-web/sazid-honda-ui",
+        "serverCode": "https://github.com/majharul-web/sazid-honda-server",
+        "desc": "Implemented Email-Password and Google Authentication system using Firebase.Applied CRUD operation, Admin and user have different dashboards.Users can visit the website and Purchase Product,see all Orders,Delete Order and Send Review.Admin can Add/Manage Product,Manage Orders & make another Admin.",
+        "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,Node.js,Express.js,MongoDB"
+    },
+    {
+        "id": 5,
+        "projectName": "Jerin’s Parlour",
+        "projectType": "Beauty Parlour Website",
+        "image1": "https://i.ibb.co/xq5MH6H/jerins-parlour.png",
+        "liveLink": "https://jerins-parlour-4d0a5.web.app/",
+        "clientCode": "https://github.com/majharul-web/jerins-parlour-ui",
+        "serverCode": "https://github.com/majharul-web/jerins-parlour-backend",
+        "desc": "Used React Router-v6 and applied an Authentication system using Firebase. Implemented CRUD operation, admin and user have different dashboards. Users can Book/Review services, See & Cancel all Orders, and Admin can Add admin/service, and Manage service/order.",
+        "technology": "React,Node.js,Express.js,MongoDB,Firebase,React-Router(v6),Material UI,HTML,CSS."
+    },
+    {
+        "id": 6,
+        "projectName": "Todo App",
+        "projectType": "Todo Application",
+        "image1": "https://i.ibb.co/Lv2NgDF/todo-App.png",
+        "liveLink": "https://todo-app-147bf.web.app/",
+        "clientCode": "https://github.com/majharul-web/todo-app-frontend",
+        "serverCode": "https://github.com/majharul-web/todo-app-backend",
+        "desc": "Implemented Email-Password and Google Authentication system using firebase.Applied CRUD operation, Where user can add, delete, update and view todo. Only logged-in users can see her todo.",
+        "technology": "React,Node.js,Express.js,MongoDB,Firebase,React-Router(v6),Material UI,HTML,CSS."
+    },
+    {
+        "id": 7,
+        "projectName": "Travelo",
+        "projectType": "Travel Agency Website",
+        "image1": "https://i.ibb.co/NFCPGbv/Travelo-1.png",
+        "liveLink": "https://travelo-2031c.web.app/",
+        "clientCode": "https://github.com/majharul-web/travelo-ui",
+        "serverCode": "https://github.com/majharul-web/travelo-server",
+        "desc": "Implemented Google Authentication system using Firebase.Applied CRUD operation, Where every user can Admin.User/Admin can Book Tour Place,Add Destination,See & Manage all Orders.",
+        "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,Node.js,Express.js,MongoDB"
+    },
+    {
+        "id": 8,
+        "projectName": "LifeCare",
+        "projectType": "Hospital Website",
+        "image1": "https://i.ibb.co/fNY3LRw/life-Care-hospita-1.png",
+        "liveLink": "https://life-care-hospital-4f97f.web.app/",
+        "clientCode": "https://github.com/majharul-web/lifeCare-hospital",
+        "desc": "Implemented Email-Password and Google Authentication system using Firebase.Users can Book Any Service.Responsive Design and Firebase hosting.",
+        "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,React-Router,Firebase"
+    }
+]

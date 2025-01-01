@@ -3,8 +3,6 @@ import React from "react";
 const ContactText = () => {
   return (
     <div>
-      <h2 className='fw-bold fs-1'>Contact</h2>
-      <h4>Get in Touch</h4>
       <p>
         I am always open to discussing new projects, collaborations, or any queries you may have. Please feel
         free to reach out to me using any of the following methods:

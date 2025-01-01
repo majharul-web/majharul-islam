@@ -52,7 +52,6 @@ const ContactForm = () => {
 
   return (
     <div className='py-5 px-3'>
-      <h3 className='text-center py-3 fw-bold'>Contact Form</h3>
       {successMessage && (
         <div className='alert alert-success text-center' aria-live='polite'>
           {successMessage}

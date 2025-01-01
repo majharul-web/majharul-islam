@@ -38,13 +38,10 @@ const ProjectDetails = () => {
   return (
     <div className='bg py-5'>
       <div className='container'>
-        <h3 className='text-center fw-bold py-3 fadeIn'>{`Details Of ${projectName}`}</h3>
-        <div className='row d-flex justify-content-center align-items-center'>
+        <h3 className='text-center fw-bold py-5 fadeIn text-decoration-underline'>{`Details Of ${projectName}`}</h3>
+        <div className='row d-flex justify-content-center '>
           <div className='col-md-6'>
-            <img className='img-fluid img-thumbnail slideIn' src={image1} alt='' />
-          </div>
-          <div className='col-md-6'>
-            <div className='fadeIn'>
+            <div>
               <h5>
                 <span className='fw-bold'>Project Name: </span>
                 {projectName}
@@ -57,6 +54,11 @@ const ProjectDetails = () => {
                 <span className='fw-bold'>Technology Used: </span>
                 {technology}
               </p>
+            </div>
+            <img className='img-fluid img-thumbnail slideIn' src={image1} alt='' />
+          </div>
+          <div className='col-md-6'>
+            <div className='fadeIn'>
               <p>
                 <span className='fw-bold'>Features: </span>
               </p>

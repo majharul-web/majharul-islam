@@ -35,8 +35,8 @@ const Blog = () => {
   return (
     <div className='blog-section bg py-5'>
       <div className='container'>
-        <h3 className='section-title text-center mb-5 fadeIn'>Blog</h3>
-        <div className='row justify-content-center'>
+        <h3 className='text-center fw-bold py-5 fadeIn text-decoration-underline'>Coming Soon</h3>
+        {/* <div className='row justify-content-center'>
           {blogs.map((blog) => (
             <div key={blog.id} className='col-lg-4 col-md-6 col-sm-12 mb-4'>
               <div className='blog-card shadow-lg slideIn'>
@@ -59,7 +59,7 @@ const Blog = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

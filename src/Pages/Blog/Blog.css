@@ -1,106 +1,48 @@
-/* Section Background */
-/* .blog-section {
-  background-color: #f9f9f9;
-  color: #333;
-} */
-
-/* Section Title Animation */
-.section-title {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: #00cba9;
-  animation: fadeIn 1.2s ease-in-out;
+/* Fade-in animation for the entire section */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-/* Blog Card Styling */
+/* Applying fade-in animation to the section */
+.py-3 {
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* Hover effect for blog cards */
 .blog-card {
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .blog-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Blog Image Styling */
-.blog-image img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-bottom: 2px solid #00cba9;
+/* Image zoom effect on hover */
+.blog-card img {
+  transition: transform 0.3s ease;
 }
 
-/* Blog Content */
-.blog-content {
-  padding: 20px;
-}
-
-.blog-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.blog-description {
-  font-size: 0.95rem;
-  color: #666;
-  margin-bottom: 15px;
-}
-
-.blog-date {
-  font-size: 0.85rem;
-  color: #888;
-  margin-bottom: 15px;
-}
-
-/* Button Styling */
-.blog-link {
-  background-color: #00cba9;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border-radius: 5px;
-  color: #fff;
-  text-transform: uppercase;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.blog-link:hover {
-  background-color: #009f85;
+.blog-card:hover img {
   transform: scale(1.05);
 }
 
-/* Animations */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Add a subtle animation to the blog details */
+.blog-details {
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.5s forwards;
 }
 
-@keyframes slideIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.blog-details h3 {
+  color: #007bff; /* A subtle color for the blog title */
 }
 
-.fadeIn {
-  animation: fadeIn 1.2s ease-out;
-}
-
-.slideIn {
-  animation: slideIn 1.5s ease-out;
+.blog-details p {
+  font-size: 14px;
+  color: #555;
 }

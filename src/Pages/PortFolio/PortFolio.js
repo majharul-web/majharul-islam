@@ -13,7 +13,7 @@ const PortFolio = () => {
   return (
     <div className='bg py-3'>
       <div className='container'>
-        <h3 className='text-center text-decoration-underline pb-2 pt-2'>Recent Works</h3>
+        <h3 className='text-center text-decoration-underline py-5'>Recent Works</h3>
         <div className='row justify-content-center align-items-center'>
           {projects.map((project) => (
             <Project key={project.id} project={project}></Project>

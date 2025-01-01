@@ -1,68 +1,46 @@
 import React from "react";
-import "./Blog.css"; // Custom CSS for styling and animations
-
-const Blog = () => {
+import Blog from "./SingleBlog";
+const BlogPage = () => {
   const blogs = [
     {
       id: 1,
-      title: "Mastering React: Best Practices for 2025",
+      title: "🚀 Mastering Communication: Connecting with New Clients",
       description:
-        "Discover the latest trends and best practices in React development for creating high-performance and maintainable web applications.",
-      date: "January 1, 2025",
-      image: "https://via.placeholder.com/400x250?text=React+Blog",
-      link: "https://www.linkedin.com/posts/your-react-blog-link",
+        "In the fast-paced business world, effective communication is the cornerstone of success. Whether you're an entrepreneur, a freelancer, or a business professional, your ability to connect with new clients can make or break your endeavors. In this blog post, we'll delve into the intricacies of communication, particularly on LinkedIn, and provide you with valuable insights on how to initiate conversations, craft compelling messages, and master the art of follow-ups.",
+      thumbnail:
+        "https://media.licdn.com/dms/image/v2/D5622AQHoSHNuOWI7mg/feedshare-shrink_800/feedshare-shrink_800/0/1692538751566?e=1738800000&v=beta&t=LlU5sZfExaCYbRcEgFOIHLWcS05Wx_9j1DbjSpubXzo",
+      link: "https://www.linkedin.com/posts/md-majharul-islam-a42b63200_mastering-the-art-of-communication-a-guide-activity-7099022060454125568-oWiV?utm_source=social_share_sheet&utm_medium=member_desktop_web",
     },
     {
       id: 2,
-      title: "Understanding TypeScript: A Beginner's Guide",
+      title: "Binary Search: The Key to Fast and Efficient Searching",
       description:
-        "Learn how TypeScript enhances JavaScript development with type safety and better tooling for modern web applications.",
-      date: "December 28, 2024",
-      image: "https://via.placeholder.com/400x250?text=TypeScript+Blog",
-      link: "https://www.linkedin.com/posts/your-typescript-blog-link",
+        "Binary Search is a powerful algorithm used to quickly find the position of a target element in a sorted array. Instead of checking every element, it divides the search space in half with each step, drastically reducing the time it takes to locate the target.",
+      thumbnail:
+        "https://media.licdn.com/dms/image/v2/D5612AQHC9a3BS-vgXQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1733897899377?e=1741219200&v=beta&t=VOoLzFwwtk-8tKQyHYh0N6XdmHQQ1dfScGDqq1e3Q-k",
+      link: "https://www.linkedin.com/pulse/binary-search-ultimate-guide-efficient-searching-md-majharul-islam-ajhec/",
     },
     {
       id: 3,
-      title: "Responsive Design with Tailwind CSS",
-      description:
-        "Explore how Tailwind CSS simplifies responsive design and speeds up development with utility-first classes.",
-      date: "December 15, 2024",
-      image: "https://via.placeholder.com/400x250?text=Tailwind+CSS+Blog",
-      link: "https://www.linkedin.com/posts/your-tailwind-blog-link",
+      title: "🚀 Mastering Unit Testing with the AAA Pattern",
+      description: "Unit testing made easy! The AAA pattern—Arrange, Act, Assert—is your secret weapon.",
+      thumbnail: "https://i.ibb.co.com/tqpJBjD/1699518417356.jpg",
+      link: "https://www.linkedin.com/posts/md-majharul-islam-a42b63200_unittesting-aaa-codequality-activity-7128296902097334272-Lc9t?utm_source=social_share_sheet&utm_medium=member_desktop_web",
     },
   ];
 
   return (
-    <div className='blog-section bg py-5'>
+    <div className='bg py-3'>
       <div className='container'>
-        <h3 className='text-center fw-bold py-5 fadeIn text-decoration-underline'>Coming Soon</h3>
-        {/* <div className='row justify-content-center'>
+        <h3 className='text-center text-decoration-underline py-5'>Recent Blogs</h3>
+        <div className='row justify-content-center align-items-center'>
           {blogs.map((blog) => (
-            <div key={blog.id} className='col-lg-4 col-md-6 col-sm-12 mb-4'>
-              <div className='blog-card shadow-lg slideIn'>
-                <div className='blog-image'>
-                  <img src={blog.image} alt={blog.title} className='img-fluid rounded-top' />
-                </div>
-                <div className='blog-content'>
-                  <h5 className='blog-title'>{blog.title}</h5>
-                  <p className='blog-description'>{blog.description}</p>
-                  <p className='blog-date'>{blog.date}</p>
-                  <a
-                    href={blog.link}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='btn btn-primary blog-link'
-                  >
-                    Visit Blog
-                  </a>
-                </div>
-              </div>
-            </div>
+            <Blog key={blog.id} blog={blog}></Blog>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );
 };
 
-export default Blog;
+export default BlogPage;

@@ -1,6 +1,6 @@
 import emailjs from "emailjs-com";
 import { useFormik } from "formik";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import * as Yup from "yup";
 
 const validationSchema = Yup.object({
@@ -18,11 +18,8 @@ const ErrorMessage = ({ touched, error }) =>
   ) : null;
 
 const ContactForm = () => {
-  const form = useRef();
   const [successMessage, setSuccessMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  //  .sendForm("service_h3mhdn9", "template_ha24cz9", form.current, "DMxD7OWlOnce6PKmM")
 
   const formik = useFormik({
     initialValues: {
@@ -34,11 +31,21 @@ const ContactForm = () => {
     validationSchema,
     onSubmit: (values, { resetForm }) => {
       setIsSubmitting(true);
+
+      // Prepare the template parameters
+      const templateParams = {
+        to_name: "MD Majharul Islam", // Replace with the recipient name
+        from_name: values.name,
+        message: values.message,
+        from_email: values.email, // Optional: Add sender's email
+        subject: values.subject, // Optional: Pass the subject if the template supports it
+      };
+
       emailjs
-        .sendForm(
+        .send(
           process.env.REACT_APP_EMAILJS_SERVICE_ID,
           process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-          form.current,
+          templateParams,
           process.env.REACT_APP_EMAILJS_USER_ID
         )
         .then(() => {
@@ -58,7 +65,7 @@ const ContactForm = () => {
         </div>
       )}
       <div className='d-flex justify-content-center'>
-        <form className='w-100' ref={form} onSubmit={formik.handleSubmit}>
+        <form className='w-100' onSubmit={formik.handleSubmit}>
           {["name", "email", "subject", "message"].map((field, idx) => (
             <div className='mb-3' key={idx}>
               {field === "message" ? (

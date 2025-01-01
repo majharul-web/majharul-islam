@@ -58,3 +58,17 @@
   color: white !important;
   border-color: #45cba9 !important;
 }
+
+/* Default input styling */
+.form-control {
+  border-color: #45cba9 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: border-color 0.3s ease-in-out !important;
+}
+
+/* Styling for focused input */
+.form-control:focus {
+  border-color: #45cba9 !important;
+  box-shadow: 0 0 0 0.2rem rgba(69, 203, 169, 0.25) !important;
+}

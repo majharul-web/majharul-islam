@@ -22,8 +22,18 @@ const ProjectDetails = () => {
     }
   }, [id, projects]);
 
-  const { projectName, projectType, image1, liveLink, clientCode, serverCode, desc, technology } =
-    exactProject;
+  const {
+    projectName,
+    projectType,
+    image1,
+    liveLink,
+    clientCode,
+    serverCode,
+    desc,
+    technology,
+    outcome,
+    challenges,
+  } = exactProject;
 
   return (
     <div className='bg py-5'>
@@ -49,7 +59,23 @@ const ProjectDetails = () => {
               </p>
               <p>
                 <span className='fw-bold'>Features: </span>
-                {desc}
+              </p>
+              <ul>
+                {desc &&
+                  desc.map((feature, index) => (
+                    <li key={index} className='fadeIn'>
+                      {feature}
+                    </li>
+                  ))}
+              </ul>
+
+              <p>
+                <span className='fw-bold'>Outcome: </span>
+                {outcome}
+              </p>
+              <p>
+                <span className='fw-bold'>Challenges: </span>
+                {challenges}
               </p>
 
               <div className='d-flex justify-content-center'>

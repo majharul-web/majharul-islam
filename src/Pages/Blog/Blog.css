@@ -1,12 +1,80 @@
-/* Background styling */
-.blog-bg {
-  background: linear-gradient(135deg, #f06, #8346ff);
-  color: white;
-  min-height: 100vh;
-  padding-top: 30px;
+/* Section Background */
+/* .blog-section {
+  background-color: #f9f9f9;
+  color: #333;
+} */
+
+/* Section Title Animation */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #00cba9;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
-/* Fade-in animation */
+/* Blog Card Styling */
+.blog-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog Image Styling */
+.blog-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid #00cba9;
+}
+
+/* Blog Content */
+.blog-content {
+  padding: 20px;
+}
+
+.blog-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-description {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+.blog-link {
+  background-color: #00cba9;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.blog-link:hover {
+  background-color: #009f85;
+  transform: scale(1.05);
+}
+
+/* Animations */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -18,51 +86,21 @@
   }
 }
 
-.fadeIn {
-  animation: fadeIn 1.5s ease-out forwards;
-}
-
-/* Fade-in for cards */
-@keyframes fadeInCard {
+@keyframes slideIn {
   0% {
     opacity: 0;
-    transform: scale(0.9);
+    transform: translateX(-20px);
   }
   100% {
     opacity: 1;
-    transform: scale(1);
+    transform: translateX(0);
   }
 }
 
-.fadeInCard {
-  animation: fadeInCard 0.8s ease-out forwards;
+.fadeIn {
+  animation: fadeIn 1.2s ease-out;
 }
 
-/* Card styling */
-.card {
-  background: white;
-  border: none;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* Typography */
-.card-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #333;
-}
-
-.card-text {
-  color: #555;
-}
-
-.text-muted {
-  font-size: 0.9rem;
-  color: #888;
+.slideIn {
+  animation: slideIn 1.5s ease-out;
 }

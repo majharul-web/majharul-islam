@@ -8,9 +8,9 @@
   }
 }
 
-/* Applying fade-in animation to the section */
-.py-3 {
-  animation: fadeIn 1.5s ease-out;
+/* Applying fade-in animation to the project details */
+.project-details {
+  animation: fadeIn 1s ease-out 0.5s forwards; /* Delay of 0.5s, duration of 1s */
 }
 
 /* Hover effect for project cards */
@@ -32,12 +32,17 @@
   transform: scale(1.05);
 }
 
-/* Add a subtle animation to the project details */
-.project-details {
-  opacity: 0;
-  animation: fadeIn 1s ease-out 0.5s forwards;
+/* Optional: Apply a subtle fade-in to the image on load */
+.project-card img {
+  animation: fadeIn 1.5s ease-out 0.3s forwards;
 }
 
+/* Styling for project name */
 .project-details h3 {
   color: #45cba9; /* A subtle color for the project title */
+}
+
+/* Styling for project type */
+.project-details h5 {
+  color: #555;
 }

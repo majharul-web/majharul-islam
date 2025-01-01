@@ -28,9 +28,9 @@
   transition: transform 0.3s ease;
 }
 
-.blog-card:hover img {
+/* .blog-card:hover img {
   transform: scale(1.05);
-}
+} */
 
 /* Add a subtle animation to the blog details */
 .blog-details {

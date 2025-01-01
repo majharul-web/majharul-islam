@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import im1 from "../../../Images/Md_Majharul_Islam.JPG";
+import im1 from "../../../Images/Md_Majharul_Islam-removebg-preview.png";
 import "./HomeHead.css";
 
 const HomeHead = () => {

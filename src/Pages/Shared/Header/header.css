@@ -1,8 +1,16 @@
 .item {
   font-size: 17px;
 }
+
 .item:hover {
   text-decoration: underline;
+}
+
+/* Active link style */
+.item.active {
+  font-weight: bold;
+  color: #45cba9 !important;
+  text-decoration: underline !important;
 }
 
 .btn-font {

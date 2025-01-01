@@ -59,8 +59,9 @@
   max-width: 200px;
   margin-top: 2rem;
   border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px #45cba9;
   animation: fadeIn 2s ease-in-out;
+  /* background-color: #45cba9; */
 }
 
 /* Keyframe animation for fade-in effect */

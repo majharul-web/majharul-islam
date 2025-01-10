@@ -14,7 +14,7 @@
             "Integrated GDS airline data with advanced filtering options and infinite scrolling for a seamless user experience, allowing agents to access a wider variety of flights quickly.",
             "Built secure, validated forms using Formik and Yup, with consistent UI elements using Tailwind CSS, ensuring ease of use and reducing booking errors."
         ],
-        "outcome": "Delivered a high-quality frontend that significantly improved the booking workflow, resulting in a 20% reduction in agent errors and increased efficiency in booking management.",
+        "outcome": "Delivered a high-quality frontend that significantly improved the booking workflow, resulting in a number of reduction in agent errors and increased efficiency in booking management.",
         "challenges": "One challenge was integrating GDS airline data with advanced filtering options, which required optimizing the performance of infinite scrolling to ensure smooth data loading. This was solved by implementing lazy loading techniques.",
         "technology": "TypeScript, Next.js, Redux, RTK Query, Tailwind CSS, Formik, Yup"
     },
@@ -32,7 +32,7 @@
             "Implemented a custom order confirmation modal and checkout functionality, reducing cart abandonment and improving conversion rates.",
             "Leveraged Laravel and MySQL for backend order management and data storage, while using jQuery for additional frontend interactivity, enhancing overall user experience."
         ],
-        "outcome": "Built a responsive and engaging e-commerce platform that saw a 15% increase in checkout completion rates and improved user satisfaction through intuitive navigation.",
+        "outcome": "Built a responsive and engaging e-commerce platform that saw increase in checkout completion rates and improved user satisfaction through intuitive navigation.",
         "challenges": "Integrating secure payment gateways like bKash and Nagad with the system involved overcoming backend issues related to API compatibility, which was resolved by thorough testing and debugging.",
         "technology": "React, jQuery, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     },
@@ -51,8 +51,8 @@
             "Built responsive layouts with Daisy UI and Tailwind CSS, providing a visually appealing and responsive experience across devices.",
             "Developed a backend with Express.js and MongoDB to manage user data, posts, likes, and comments efficiently."
         ],
-        "outcome": "Delivered an interactive photo-sharing platform that saw 1,000+ user interactions within the first month, with a 30% increase in user engagement through the commenting and liking features.",
-        "challenges": "One challenge was optimizing the backend to handle high traffic, which was mitigated by implementing data pagination and optimizing database queries.",
+        "outcome": "Delivered an interactive photo-sharing platform that fosters social engagement.",
+        "challenges": "One challenge was optimizing the backend to handle traffic, which was mitigated by implementing data pagination and optimizing database queries.",
         "technology": "JavaScript, TypeScript, React, Redux, Tailwind CSS, Daisy UI, Firebase, MongoDB, Express.js, Node.js"
     },
     {
@@ -68,7 +68,7 @@
             "Implemented features like 'Refer A Friend' with Ajax for dynamic user engagement, pre-registration, and app QR code scanning for easy access to services.",
             "Created a responsive, mobile-first interface, ensuring the site was user-friendly across all devices, leading to better user interaction."
         ],
-        "outcome": "The website successfully improved brand visibility and engagement, leading to a 25% increase in new user sign-ups.",
+        "outcome": "The website successfully improved brand visibility and engagement, leading to increase in new user sign-ups.",
         "challenges": "The major challenge was ensuring the website’s responsiveness across all devices, which was resolved by using a mobile-first design approach and thorough testing.",
         "technology": "PHP (Laravel), MySQL, Bootstrap, HTML, CSS, jQuery"
     },
@@ -85,7 +85,7 @@
             "Designed the UI and implemented API connections for shopping cart and wishlist management, simplifying the purchasing process for users.",
             "Integrated authentication and payment gateways like bKash and Nagad, alongside coupon and discount features, enhancing the overall shopping experience."
         ],
-        "outcome": "Built a modern, user-friendly e-commerce website that led to a 20% increase in sales and a 30% improvement in user retention due to its intuitive interface and checkout process.",
+        "outcome": "Built a modern, user-friendly e-commerce website that led to increase in sales and improvement in user retention due to its intuitive interface and checkout process.",
         "challenges": "Integrating the payment gateway with a smooth user experience was challenging, but extensive testing ensured secure and seamless transactions.",
         "technology": "React, React-Redux, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     }

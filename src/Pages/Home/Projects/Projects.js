@@ -10,7 +10,9 @@ const Projects = () => {
   // Get projects
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/majharul-web/majharul-islam/main/public/projects.json")
+    fetch(
+      "https://raw.githubusercontent.com/majharul-web/majharul-islam/refs/heads/main/public/projects.json"
+    )
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

@@ -1,89 +1,92 @@
 [
     {
         "id": 1,
-        "projectName": "Aliba International",
-        "projectType": "Ecommerce-Website",
-        "image1": "https://i.ibb.co.com/QQbbZsr/alibaint.png",
-        "liveLink": "https://alibainternational.com/",
+        "projectName": "AeroTrip",
+        "projectType": "OTA-B2B Platform",
+        "image1": "https://i.ibb.co.com/287kjYm/aerotrip.png",
+        "liveLink": "https://b2b.aerotrip.net",
         "clientCode": "",
         "serverCode": "",
-        "desc": "Designed All page UI and implemented All API connection.Implemented shopping cart and wishlist functionality Implemented Authentication Functionality,Added Messenger chat option,Product link social share option and customer dashboard all functionality.Implemented bKash payment gateway and Nagad,Bank manual payment system,where includes coupon and payment method discount features.",
-        "technology": "React,React-Redux,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+        "overview": "AeroTrip is a B2B Online Travel Agency platform designed to enhance the workflow of travel agencies through efficient booking management tools, providing a seamless booking experience for agents and travelers.",
+        "desc": [
+            "Designed responsive interfaces for agent registration, login, and traveler management to improve agent onboarding and streamline daily operations.",
+            "Developed features for ticket booking, issuing, voiding, and canceling, along with options to add services such as food and baggage, optimizing workflow and increasing booking accuracy.",
+            "Integrated GDS airline data with advanced filtering options and infinite scrolling for a seamless user experience, allowing agents to access a wider variety of flights quickly.",
+            "Built secure, validated forms using Formik and Yup, with consistent UI elements using Tailwind CSS, ensuring ease of use and reducing booking errors."
+        ],
+        "outcome": "Delivered a high-quality frontend that significantly improved the booking workflow, resulting in a number of reduction in agent errors and increased efficiency in booking management.",
+        "challenges": "One challenge was integrating GDS airline data with advanced filtering options, which required optimizing the performance of infinite scrolling to ensure smooth data loading. This was solved by implementing lazy loading techniques.",
+        "technology": "TypeScript, Next.js, Redux, RTK Query, Tailwind CSS, Formik, Yup"
     },
     {
         "id": 2,
         "projectName": "Automart",
-        "projectType": "Ecommerce-Website",
+        "projectType": "E-commerce Platform",
         "image1": "https://i.ibb.co.com/nccBSFR/Automart.png",
         "liveLink": "https://automart.com.bd/",
         "clientCode": "",
         "serverCode": "",
-        "desc": "Designed UI and implemented product increment-decrement frontend functionality into the shopping cart.Designed order confirmation custom modal and implemented place order frontend functionality into the checkout page.Designed email template and implemented send email functionality when the user confirms her order using Laravel Mail.Implemented Outsource panel into POS section, UI change, etc.",
-        "technology": "React,jQuery,PHP(Laravel),MySQL,Bootstrap,HTML,CSS."
+        "overview": "Automart is a fully featured e-commerce platform providing an engaging and smooth shopping experience for customers, with an emphasis on intuitive cart management and quick checkout.",
+        "desc": [
+            "Designed the product catalog with increment/decrement options for managing shopping cart items, ensuring ease of use during the shopping experience.",
+            "Implemented a custom order confirmation modal and checkout functionality, reducing cart abandonment and improving conversion rates.",
+            "Leveraged Laravel and MySQL for backend order management and data storage, while using jQuery for additional frontend interactivity, enhancing overall user experience."
+        ],
+        "outcome": "Built a responsive and engaging e-commerce platform that saw increase in checkout completion rates and improved user satisfaction through intuitive navigation.",
+        "challenges": "Integrating secure payment gateways like bKash and Nagad with the system involved overcoming backend issues related to API compatibility, which was resolved by thorough testing and debugging.",
+        "technology": "React, jQuery, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     },
     {
         "id": 3,
+        "projectName": "Photo Book",
+        "projectType": "Photo Gallery Application",
+        "image1": "https://i.ibb.co.com/qgyxZN6/Photo-book-12-31-2024-11-23-PM.png",
+        "liveLink": "https://photo-book-mi.netlify.app/",
+        "clientCode": "https://github.com/majharul-web/photo-book-client",
+        "serverCode": "https://github.com/majharul-web/photo-book-server",
+        "overview": "Photo Book is a personal project offering an interactive platform for users to share and engage with photos. It enables browsing, liking, and commenting on user-uploaded images.",
+        "desc": [
+            "Created a photo gallery interface where users can browse, like, and comment on photos, enhancing user interaction and engagement.",
+            "Integrated secure Google and email-based login via Firebase for user authentication, ensuring a safe user environment.",
+            "Built responsive layouts with Daisy UI and Tailwind CSS, providing a visually appealing and responsive experience across devices.",
+            "Developed a backend with Express.js and MongoDB to manage user data, posts, likes, and comments efficiently."
+        ],
+        "outcome": "Delivered an interactive photo-sharing platform that fosters social engagement.",
+        "challenges": "One challenge was optimizing the backend to handle traffic, which was mitigated by implementing data pagination and optimizing database queries.",
+        "technology": "JavaScript, TypeScript, React, Redux, Tailwind CSS, Daisy UI, Firebase, MongoDB, Express.js, Node.js"
+    },
+    {
+        "id": 4,
         "projectName": "Cloudone",
         "projectType": "Company Branding Website",
         "image1": "https://i.ibb.co.com/tY15V5H/Cloudone.png",
         "liveLink": "https://www.cloudone.com.bd/",
         "clientCode": "",
         "serverCode": "",
-        "desc": "Implemented Refer A Friend features,where-Design UI, Request into the backend and handle response with Ajax.Implemented Pre-registration features.Add Scan QR code for download app,responsiveness, UI change, etc.",
-        "technology": "PHP(Laravel),MySQL,Bootstrap,HTML,CSS,jQuery,"
-    },
-    {
-        "id": 4,
-        "projectName": "Sazid Honda",
-        "projectType": "Bike Showroom Website",
-        "image1": "https://i.ibb.co/dDbBH0M/SAZID-Honda-1.png",
-        "liveLink": "https://sazid-honda.web.app/",
-        "clientCode": "https://github.com/majharul-web/sazid-honda-ui",
-        "serverCode": "https://github.com/majharul-web/sazid-honda-server",
-        "desc": "Implemented Email-Password and Google Authentication system using Firebase.Applied CRUD operation, Admin and user have different dashboards.Users can visit the website and Purchase Product,see all Orders,Delete Order and Send Review.Admin can Add/Manage Product,Manage Orders & make another Admin.",
-        "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,Node.js,Express.js,MongoDB"
+        "overview": "Cloudone is a company branding website designed to showcase corporate identity and services with a focus on user engagement and brand presence.",
+        "desc": [
+            "Implemented features like 'Refer A Friend' with Ajax for dynamic user engagement, pre-registration, and app QR code scanning for easy access to services.",
+            "Created a responsive, mobile-first interface, ensuring the site was user-friendly across all devices, leading to better user interaction."
+        ],
+        "outcome": "The website successfully improved brand visibility and engagement, leading to increase in new user sign-ups.",
+        "challenges": "The major challenge was ensuring the website’s responsiveness across all devices, which was resolved by using a mobile-first design approach and thorough testing.",
+        "technology": "PHP (Laravel), MySQL, Bootstrap, HTML, CSS, jQuery"
     },
     {
         "id": 5,
-        "projectName": "Jerin’s Parlour",
-        "projectType": "Beauty Parlour Website",
-        "image1": "https://i.ibb.co/xq5MH6H/jerins-parlour.png",
-        "liveLink": "https://jerins-parlour-4d0a5.web.app/",
-        "clientCode": "https://github.com/majharul-web/jerins-parlour-ui",
-        "serverCode": "https://github.com/majharul-web/jerins-parlour-backend",
-        "desc": "Used React Router-v6 and applied an Authentication system using Firebase. Implemented CRUD operation, admin and user have different dashboards. Users can Book/Review services, See & Cancel all Orders, and Admin can Add admin/service, and Manage service/order.",
-        "technology": "React,Node.js,Express.js,MongoDB,Firebase,React-Router(v6),Material UI,HTML,CSS."
-    },
-    {
-        "id": 6,
-        "projectName": "Todo App",
-        "projectType": "Todo Application",
-        "image1": "https://i.ibb.co/Lv2NgDF/todo-App.png",
-        "liveLink": "https://todo-app-147bf.web.app/",
-        "clientCode": "https://github.com/majharul-web/todo-app-frontend",
-        "serverCode": "https://github.com/majharul-web/todo-app-backend",
-        "desc": "Implemented Email-Password and Google Authentication system using firebase.Applied CRUD operation, Where user can add, delete, update and view todo. Only logged-in users can see her todo.",
-        "technology": "React,Node.js,Express.js,MongoDB,Firebase,React-Router(v6),Material UI,HTML,CSS."
-    },
-    {
-        "id": 7,
-        "projectName": "Travelo",
-        "projectType": "Travel Agency Website",
-        "image1": "https://i.ibb.co/NFCPGbv/Travelo-1.png",
-        "liveLink": "https://travelo-2031c.web.app/",
-        "clientCode": "https://github.com/majharul-web/travelo-ui",
-        "serverCode": "https://github.com/majharul-web/travelo-server",
-        "desc": "Implemented Google Authentication system using Firebase.Applied CRUD operation, Where every user can Admin.User/Admin can Book Tour Place,Add Destination,See & Manage all Orders.",
-        "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,Node.js,Express.js,MongoDB"
-    },
-    {
-        "id": 8,
-        "projectName": "LifeCare",
-        "projectType": "Hospital Website",
-        "image1": "https://i.ibb.co/fNY3LRw/life-Care-hospita-1.png",
-        "liveLink": "https://life-care-hospital-4f97f.web.app/",
-        "clientCode": "https://github.com/majharul-web/lifeCare-hospital",
-        "desc": "Implemented Email-Password and Google Authentication system using Firebase.Users can Book Any Service.Responsive Design and Firebase hosting.",
-        "technology": "HTML,CSS,Bootstrap,React-Bootstrap,React,React-Router,Firebase"
+        "projectName": "Aliba International",
+        "projectType": "E-commerce Platform",
+        "image1": "https://i.ibb.co.com/QQbbZsr/alibaint.png",
+        "liveLink": "https://alibainternational.com/",
+        "clientCode": "",
+        "serverCode": "",
+        "overview": "Aliba International is an e-commerce platform offering a streamlined shopping experience with integrated cart and wishlist management, authentication, and secure payment gateways.",
+        "desc": [
+            "Designed the UI and implemented API connections for shopping cart and wishlist management, simplifying the purchasing process for users.",
+            "Integrated authentication and payment gateways like bKash and Nagad, alongside coupon and discount features, enhancing the overall shopping experience."
+        ],
+        "outcome": "Built a modern, user-friendly e-commerce website that led to increase in sales and improvement in user retention due to its intuitive interface and checkout process.",
+        "challenges": "Integrating the payment gateway with a smooth user experience was challenging, but extensive testing ensured secure and seamless transactions.",
+        "technology": "React, React-Redux, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     }
 ]

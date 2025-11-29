@@ -1,25 +1,46 @@
 [
     {
         "id": 1,
-        "projectName": "AeroTrip",
-        "projectType": "OTA-B2B Platform",
-        "image1": "https://i.ibb.co.com/287kjYm/aerotrip.png",
-        "liveLink": "https://b2b.aerotrip.net",
-        "clientCode": "",
-        "serverCode": "",
-        "overview": "AeroTrip is a B2B Online Travel Agency platform designed to enhance the workflow of travel agencies through efficient booking management tools, providing a seamless booking experience for agents and travelers.",
+        "projectName": "Shohorbari",
+        "projectType": "Rental Management Platform",
+        "image1": "https://i.ibb.co.com/9mW2RJXd/image.png",
+        "liveLink": "https://shohorbari.vercel.app",
+        "clientCode": "https://github.com/majharul-web/shohorbari_front",
+        "serverCode": "https://github.com/majharul-web/shohorbari_drf",
+        "overview": "Shohorbari is a full-stack rental management platform that allows users to list, browse, and manage rental properties. It streamlines rental advertisement management and request handling for both customers and administrators.",
         "desc": [
-            "Designed responsive interfaces for agent registration, login, and traveler management to improve agent onboarding and streamline daily operations.",
-            "Developed features for ticket booking, issuing, voiding, and canceling, along with options to add services such as food and baggage, optimizing workflow and increasing booking accuracy.",
-            "Integrated GDS airline data with advanced filtering options and infinite scrolling for a seamless user experience, allowing agents to access a wider variety of flights quickly.",
-            "Built secure, validated forms using Formik and Yup, with consistent UI elements using Tailwind CSS, ensuring ease of use and reducing booking errors."
+            "Developed a full-stack rental marketplace featuring user authentication, rental advertisement CRUD operations, and request management workflows.",
+            "Implemented advanced search, pagination, and a structured admin interface for managing ads and rental requests, enhancing usability and admin efficiency.",
+            "Integrated backend rental request operations using Django REST Framework and PostgreSQL, improving data reliability and reducing manual review efforts.",
+            "Added SSLCommerz payment integration (sandbox) to simulate secure payment flows and support end-to-end rental transactions."
         ],
-        "outcome": "Delivered a high-quality frontend that significantly improved the booking workflow, resulting in a number of reduction in agent errors and increased efficiency in booking management.",
-        "challenges": "One challenge was integrating GDS airline data with advanced filtering options, which required optimizing the performance of infinite scrolling to ensure smooth data loading. This was solved by implementing lazy loading techniques.",
-        "technology": "TypeScript, Next.js, Redux, RTK Query, Tailwind CSS, Formik, Yup"
+        "outcome": "Delivered a secure, user-friendly rental management platform that improved rental request handling, reduced manual processing, and enabled smooth online payment simulations.",
+        "challenges": "One challenge was ensuring secure and seamless payment integration while maintaining data consistency across listings and rental requests. Solved by careful API design and backend validation using Django REST Framework.",
+        "technology": "React.js, Tailwind CSS, Django REST Framework, PostgreSQL, JWT Authentication, SSLCommerz (sandbox)"
     },
     {
         "id": 2,
+        "projectName": "Travelkeep",
+        "projectType": "Travel Management SaaS Platform",
+        "image1": "https://i.ibb.co.com/xtzjJV81/image.png",
+        "liveLink": "https://travelkeep.example.com",
+        "clientCode": "",
+        "serverCode": "",
+        "overview": "Travelkeep is a Travel Management SaaS product designed to streamline agency workflows and optimize travel booking management. It provides agents with a centralized platform to manage bookings, cancellations, and customer data efficiently.",
+        "desc": [
+            "Engineered responsive interfaces for agent onboarding, ticket issuing, voiding, and cancellations, improving agent workflow efficiency.",
+            "Integrated airline and travel data with advanced filtering, infinite scrolling, and optimized API queries to enhance user experience and speed up data access.",
+            "Implemented robust form validations using Formik and Yup, reducing errors by 35% and ensuring consistent UI across the platform using Tailwind CSS.",
+            "Developed backend APIs in Golang (Gin + GORM) for agent and vendor modules, including accounting ledger, lead management, and transactional operations.",
+            "Built secure endpoints for bulk account creation (up to 5,000 agents/vendors) using Excel import with optimized batch processing.",
+            "Enhanced data integrity and performance by implementing efficient query handling, validation middleware, and optimized API endpoints."
+        ],
+        "outcome": "Delivered a scalable, high-quality SaaS platform that is used daily by 100+ travel agencies, improving booking workflow efficiency and reducing agent errors.",
+        "challenges": "Integrating travel and airline data with advanced filtering and infinite scrolling posed performance challenges. These were overcome using lazy loading and optimized API queries to ensure smooth and responsive data access.",
+        "technology": "Golang, TypeScript, Next.js, Redux, RTK Query, Tailwind CSS, Formik, Yup"
+    },
+    {
+        "id": 3,
         "projectName": "Automart",
         "projectType": "E-commerce Platform",
         "image1": "https://i.ibb.co.com/nccBSFR/Automart.png",
@@ -37,7 +58,7 @@
         "technology": "React, jQuery, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     },
     {
-        "id": 3,
+        "id": 4,
         "projectName": "Photo Book",
         "projectType": "Photo Gallery Application",
         "image1": "https://i.ibb.co.com/qgyxZN6/Photo-book-12-31-2024-11-23-PM.png",
@@ -56,7 +77,7 @@
         "technology": "JavaScript, TypeScript, React, Redux, Tailwind CSS, Daisy UI, Firebase, MongoDB, Express.js, Node.js"
     },
     {
-        "id": 4,
+        "id": 5,
         "projectName": "Cloudone",
         "projectType": "Company Branding Website",
         "image1": "https://i.ibb.co.com/tY15V5H/Cloudone.png",
@@ -71,22 +92,5 @@
         "outcome": "The website successfully improved brand visibility and engagement, leading to increase in new user sign-ups.",
         "challenges": "The major challenge was ensuring the website’s responsiveness across all devices, which was resolved by using a mobile-first design approach and thorough testing.",
         "technology": "PHP (Laravel), MySQL, Bootstrap, HTML, CSS, jQuery"
-    },
-    {
-        "id": 5,
-        "projectName": "Aliba International",
-        "projectType": "E-commerce Platform",
-        "image1": "https://i.ibb.co.com/QQbbZsr/alibaint.png",
-        "liveLink": "https://alibainternational.com/",
-        "clientCode": "",
-        "serverCode": "",
-        "overview": "Aliba International is an e-commerce platform offering a streamlined shopping experience with integrated cart and wishlist management, authentication, and secure payment gateways.",
-        "desc": [
-            "Designed the UI and implemented API connections for shopping cart and wishlist management, simplifying the purchasing process for users.",
-            "Integrated authentication and payment gateways like bKash and Nagad, alongside coupon and discount features, enhancing the overall shopping experience."
-        ],
-        "outcome": "Built a modern, user-friendly e-commerce website that led to increase in sales and improvement in user retention due to its intuitive interface and checkout process.",
-        "challenges": "Integrating the payment gateway with a smooth user experience was challenging, but extensive testing ensured secure and seamless transactions.",
-        "technology": "React, React-Redux, PHP (Laravel), MySQL, Bootstrap, HTML, CSS"
     }
 ]

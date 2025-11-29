@@ -1,4 +1,3 @@
-import React from "react";
 import Blog from "./SingleBlog";
 const BlogPage = () => {
   const blogs = [
@@ -8,7 +7,7 @@ const BlogPage = () => {
       description:
         "In the fast-paced business world, effective communication is the cornerstone of success. Whether you're an entrepreneur, a freelancer, or a business professional, your ability to connect with new clients can make or break your endeavors. In this blog post, we'll delve into the intricacies of communication, particularly on LinkedIn, and provide you with valuable insights on how to initiate conversations, craft compelling messages, and master the art of follow-ups.",
       thumbnail:
-        "https://media.licdn.com/dms/image/v2/D5622AQHoSHNuOWI7mg/feedshare-shrink_800/feedshare-shrink_800/0/1692538751566?e=1738800000&v=beta&t=LlU5sZfExaCYbRcEgFOIHLWcS05Wx_9j1DbjSpubXzo",
+        "https://media.licdn.com/dms/image/v2/D5622AQHoSHNuOWI7mg/feedshare-shrink_800/feedshare-shrink_800/0/1692538751566?e=1766016000&v=beta&t=UduAIo2RtVUHTQhYQc7pVDXlXQ19aldfmYAFGxtMUAA",
       link: "https://www.linkedin.com/posts/md-majharul-islam-a42b63200_mastering-the-art-of-communication-a-guide-activity-7099022060454125568-oWiV?utm_source=social_share_sheet&utm_medium=member_desktop_web",
     },
     {
@@ -17,7 +16,7 @@ const BlogPage = () => {
       description:
         "Binary Search is a powerful algorithm used to quickly find the position of a target element in a sorted array. Instead of checking every element, it divides the search space in half with each step, drastically reducing the time it takes to locate the target.",
       thumbnail:
-        "https://media.licdn.com/dms/image/v2/D5612AQHC9a3BS-vgXQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1733897899377?e=1741219200&v=beta&t=VOoLzFwwtk-8tKQyHYh0N6XdmHQQ1dfScGDqq1e3Q-k",
+        "https://media.licdn.com/dms/image/v2/D5612AQFdWUQ98j9Iag/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1736054007408?e=1766016000&v=beta&t=PFxM-R4i4jSx-UMutVK2zM1mQxjWJc08zpF72XuF_qA",
       link: "https://www.linkedin.com/pulse/binary-search-ultimate-guide-efficient-searching-md-majharul-islam-ajhec/",
     },
     {
@@ -33,7 +32,7 @@ const BlogPage = () => {
     <div className='bg py-3'>
       <div className='container'>
         <h3 className='text-center text-decoration-underline py-5'>Recent Blogs</h3>
-        <div className='row justify-content-center align-items-center'>
+        <div className='row g-5 justify-content-center align-items-center'>
           {blogs.map((blog) => (
             <Blog key={blog.id} blog={blog}></Blog>
           ))}

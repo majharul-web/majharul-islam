@@ -1,5 +1,6 @@
 .item {
   font-size: 17px;
+  margin: 0 15px;
 }
 
 .item:hover {
@@ -15,4 +16,26 @@
 
 .btn-font {
   font-size: 17px;
+  margin: 0px 15px;
+}
+
+.navbar-padding {
+  padding: 3rem;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .navbar-padding {
+    padding: 1rem 1rem;
+  }
+
+  .item {
+    font-size: 16px;
+    margin: 0 0px;
+  }
+
+  .btn-font {
+    font-size: 16px;
+    margin: 10px 0;
+  }
 }

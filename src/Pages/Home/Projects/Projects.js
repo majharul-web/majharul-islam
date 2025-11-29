@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Project from "../../Project/Project";
 import "./Projects.css";
 
@@ -19,7 +19,7 @@ const Projects = () => {
     <div style={style} className='py-3'>
       <div className='container'>
         <h3 className='text-decoration-underline pb-2 pt-2'>Recent Works</h3>
-        <div className='row justify-content-center align-items-center'>
+        <div className='row g-5 justify-content-center align-items-center'>
           {projects.slice(0, 3).map((project) => (
             <Project key={project.id} project={project}></Project>
           ))}

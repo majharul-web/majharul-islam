@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import aboutIm from "../../Images/about.png";
@@ -28,27 +28,33 @@ const About = () => {
               />
             </h2>
             <p className={`py-3 ${isVisible ? "fadeIn" : ""}`} style={{ textAlign: "justify" }}>
-              As a Frontend Developer with over 2.5 years of experience, I specialize in creating
-              high-quality, responsive, and user-centric web applications. I have a deep expertise in
-              JavaScript, React, Next.js, and Tailwind CSS, and I'm also skilled in TypeScript, Node.js, and
-              database management (MongoDB, MySQL). With a solid understanding of both front-end and back-end
-              development, I thrive in fast-paced, collaborative environments, where my focus on clean,
-              maintainable code drives successful outcomes.
+              <strong>Results-driven Fullstack (Frontend-focused) Developer</strong> with{" "}
+              <strong>3.5+ years of experience</strong> building{" "}
+              <strong>scalable, high-performing web applications</strong> using{" "}
+              <strong>Next.js, React, TypeScript, Redux, and Tailwind CSS</strong>. Skilled at transforming
+              complex business needs into <strong>clean, intuitive, and responsive interfaces</strong> while
+              ensuring <strong>maintainability and performance</strong>. Experienced across{" "}
+              <strong>OTA platforms, e-commerce systems, and enterprise dashboards</strong>, improving
+              workflow efficiency and user experience.
               <br />
               <br />
-              I have successfully contributed to impactful projects like AeroTrip (B2B OTA platform), where I
-              built key features for travel agency workflows, and Automart (E-commerce platform), enhancing
-              user experience with seamless cart management and checkout functionality. In addition to my
-              technical expertise, I bring a passion for user experience design, ensuring every project is
-              both functional and visually appealing.
+              Over the past year, expanded backend expertise through hands-on work with{" "}
+              <strong>Python, Django, Node.js, Express.js, SQL, and MongoDB</strong>, and contributed to
+              backend API development at <strong>Citycom Travel</strong> using{" "}
+              <strong>Golang, Gin, GORM, MySQL, Redis</strong>, and <strong>microservice architecture</strong>
+              . Built multiple full-stack projects, strengthened system reliability, and optimized
+              data-processing performance. Passionate about{" "}
+              <strong>end-to-end development, clean architecture</strong>, and delivering solutions that{" "}
+              <strong>drive meaningful business impact</strong>.
               <br />
               <br />
-              Let’s connect! I’m always open to discussing new opportunities and projects that push the
-              boundaries of web development.
+              Let’s connect! I’m always excited to collaborate on{" "}
+              <strong>impactful web development projects</strong> and <strong>innovative solutions</strong>.
             </p>
+
             <div>
               <Button
-                variant='outline-success'
+                variant='outline-success fw-bold'
                 href='https://drive.google.com/file/d/1s-5dAuqEBIiFd99p67RcLK7feC6xyxpN/view?usp=sharing'
                 target='_blank'
               >
@@ -62,10 +68,10 @@ const About = () => {
         </div>
       </div>
       <div className='container'>
-        <h2 className='fw-bold text-center py-4 text-decoration-underline' style={{ color: "#00CBA9" }}>
+        {/* <h2 className='fw-bold text-center py-4 text-decoration-underline' style={{ color: "#00CBA9" }}>
           My Skill
-        </h2>
-        <Progress></Progress>
+        </h2> */}
+        <Progress />
       </div>
     </div>
   );

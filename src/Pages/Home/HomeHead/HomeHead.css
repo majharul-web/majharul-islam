@@ -1,74 +1,87 @@
+/* ---------- Background / Container ---------- */
 .bg {
   width: 100%;
   background-image: url("../../../Images/circle-scatter-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* General container styling for centering */
+
 .homehead-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 55vh;
   background-image: url("../../../Images/circle-scatter-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   color: #333;
-  font-family: "Arial", sans-serif;
+  animation: fadePage 1.2s ease forwards;
 }
 
-/* Greeting text styling */
+@keyframes fadePage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------- Greeting Animation ---------- */
 .greeting {
   font-size: 1.5rem;
-  color: #45cba9; /* Friendly blue color */
+  color: #45cba9;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
-  animation: fadeIn 1s ease-in-out;
+  opacity: 0;
+  transform: translateY(-15px);
+  animation: slideDown 0.9s ease forwards;
 }
 
-/* Main name title styling */
+@keyframes slideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Name Title Animation ---------- */
 .name-title {
   font-size: 2.5rem;
   color: #333;
   font-weight: 700;
-  /* text-transform: uppercase; */
   margin-bottom: 1rem;
   display: inline-block;
-  animation: fadeIn 1.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(15px);
+  animation: slideUp 1s ease forwards 0.2s;
 }
 
-/* Highlight styling for name */
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Highlight Name */
 .highlight {
-  color: #45cba9; /* Set the color to #45cba9 */
-  /* text-shadow: 3px 3px 6px rgba(72, 217, 179, 0.6), 0 0 20px rgba(72, 217, 179, 0.3);  */
-  /* font-style: italic; */
+  color: #45cba9;
 }
 
-/* Typewriter effect styling */
+/* ---------- Typewriter Fade ---------- */
+.typewriter-wrapper,
 .typewriter-effect {
-  font-size: 1.2rem;
-  color: #333;
-  font-weight: 400;
-  margin-top: 1rem;
+  opacity: 0;
+  animation: fadeUp 1.2s ease forwards 0.4s;
 }
 
-/* Image styling */
-.profile-image {
-  max-width: 200px;
-  margin-top: 2rem;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px #45cba9;
-  animation: fadeIn 2s ease-in-out;
-  /* background-color: #45cba9; */
-}
-
-/* Keyframe animation for fade-in effect */
-@keyframes fadeIn {
+@keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
@@ -76,7 +89,42 @@
   }
 }
 
-/* Responsive adjustments */
+/* ---------- Floating Profile Image ---------- */
+.profile-image {
+  max-width: 210px;
+  margin-top: 2rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(69, 203, 169, 0.4);
+  animation: floatIn 1.4s ease forwards 0.5s, floating 4s ease-in-out infinite;
+  opacity: 0;
+}
+
+/* Appear Animation */
+@keyframes floatIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Slow Floating Effect */
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .greeting {
     font-size: 1.2rem;

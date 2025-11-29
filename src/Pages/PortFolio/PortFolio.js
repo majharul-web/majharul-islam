@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Project from "../Project/Project";
 
 const PortFolio = () => {
@@ -14,7 +14,7 @@ const PortFolio = () => {
     <div className='bg py-3'>
       <div className='container'>
         <h3 className='text-center text-decoration-underline py-5'>Recent Works</h3>
-        <div className='row justify-content-center align-items-center'>
+        <div className='row g-5 justify-content-center align-items-center'>
           {projects.map((project) => (
             <Project key={project.id} project={project}></Project>
           ))}

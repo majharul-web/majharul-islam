@@ -1,58 +1,88 @@
 import ProgressBar from "@ramonak/react-progress-bar";
-import React from "react";
+import "./Skills.css";
 
-const skills = [
+// ---- Top skills (Circular) ----
+const topSkills = [
   { name: "JavaScript", progress: 90 },
-  { name: "TypeScript", progress: 70 },
-  { name: "React", progress: 90 },
+  { name: "React.js", progress: 90 },
   { name: "Next.js", progress: 85 },
-  { name: "Redux (RTK, RTK Query)", progress: 80 },
-  { name: "Node.js", progress: 65 },
-  { name: "Express.js", progress: 60 },
-  { name: "MongoDB", progress: 65 },
-  { name: "C", progress: 60 },
-  { name: "C++", progress: 65 },
-  { name: "DSA", progress: 60 },
-  { name: "Tailwind CSS", progress: 85 },
-  { name: "Bootstrap", progress: 80 },
-  { name: "HTML", progress: 95 },
-  { name: "CSS", progress: 90 },
-  { name: "Sass", progress: 70 },
-  { name: "SQL (PostgreSQL)", progress: 50 },
-  { name: "React Native", progress: 55 },
+  { name: "TypeScript", progress: 85 },
+  { name: "Tailwind CSS", progress: 90 },
+  { name: "Redux Toolkit", progress: 85 },
 ];
 
-const Progress = () => {
+// ---- Backend & Tools (Bars) ----
+const backendSkills = [
+  { name: "Python", progress: 75 },
+  { name: "Django (Basic)", progress: 70 },
+  { name: "Golang", progress: 75 },
+  { name: "Node.js", progress: 70 },
+  { name: "Express.js", progress: 70 },
+  { name: "MongoDB", progress: 70 },
+  { name: "MySQL", progress: 60 },
+  { name: "PostgreSQL (Basic)", progress: 50 },
+];
+
+// ---- Other skills (Chips) ----
+const otherSkills = ["C", "C++", "DSA", "REST APIs", "JWT Auth", "Git", "Linux", "Microservices (Basic)"];
+
+const Skills = () => {
   return (
-    <div className='d-flex justify-content-center'>
-      <div className='w-75'>
-        {skills.map((skill, index) => (
-          <div className='row my-3' key={index}>
-            <div className='col-md-4 text-end'>
-              <h5>{skill.name}</h5>
+    <div className='skills-container container pt-2 pb-4'>
+      {/* ---------- TOP SKILLS (CIRCULAR) ---------- */}
+      <h2 className='section-title text-center mb-5 fw-bold fade-in'>Top Skills</h2>
+      <div className='d-flex flex-wrap justify-content-center gap-4'>
+        {topSkills.map((skill, idx) => (
+          <div
+            className='circle-wrapper text-center circle-animate'
+            key={idx}
+            style={{ animationDelay: `${idx * 0.2}s` }}
+          >
+            <div
+              className='circle'
+              style={{
+                background: `conic-gradient(#FF4F5A ${skill.progress * 3.6}deg, #e6e6e6 0deg)`,
+              }}
+            >
+              <div className='inner-circle'>
+                <span className='percent-text'>{skill.progress}%</span>
+              </div>
             </div>
-            <div className='col-md-8'>
-              <ProgressBar
-                completed={skill.progress}
-                customLabel={`${skill.progress}%`}
-                bgColor='#FF4F5A'
-                height='30px'
-                borderRadius='0'
-                labelAlignment='center'
-                baseBgColor='#00CBA9'
-                labelColor='#eee0e0'
-                margin='5px 0'
-                padding='5px'
-                transitionDuration='1s'
-                animateOnRender
-                dir='auto'
-              />
-            </div>
+            <h6 className='mt-2'>{skill.name}</h6>
           </div>
+        ))}
+      </div>
+
+      {/* ---------- BACKEND & TOOLS ---------- */}
+      <h2 className='section-title text-center mt-5 mb-4 fw-bold fade-in'>Backend & Tools</h2>
+      <div className='w-75 mx-auto'>
+        {backendSkills.map((skill, idx) => (
+          <div className='my-3 slide-left' key={idx} style={{ animationDelay: `${idx * 0.15}s` }}>
+            <h6 className='mb-1'>{skill.name}</h6>
+            <ProgressBar
+              completed={skill.progress}
+              bgColor='#FF4F5A'
+              baseBgColor='#00CBA9'
+              height='20px'
+              customLabel={`${skill.progress}%`}
+              labelColor='#333'
+              labelSize='12px'
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* ---------- OTHER SKILLS (CHIPS) ---------- */}
+      <h2 className='section-title text-center mt-5 mb-3 fw-bold fade-in'>Other Skills</h2>
+      <div className='d-flex flex-wrap justify-content-center gap-2'>
+        {otherSkills.map((skill, idx) => (
+          <span className='skill-chip chip-animate' key={idx} style={{ animationDelay: `${idx * 0.1}s` }}>
+            {skill}
+          </span>
         ))}
       </div>
     </div>
   );
 };
 
-export default Progress;
+export default Skills;
